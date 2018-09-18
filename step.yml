@@ -1,6 +1,6 @@
 name: trigger-test
-version: 1.0
-description: Trigger a test
+version: 1.0.0
+summary: Trigger a test
 tags:
   - build
   - trigger
