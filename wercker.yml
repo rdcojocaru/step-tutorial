@@ -2,6 +2,8 @@ box: alpine
 
 build:
   steps:
+    - shellcheck:
+        files: run.sh
     - script:
         name: prepare output
         code: rm -rf $WERCKER_ROOT/.git
@@ -10,4 +12,4 @@ publish:
   steps:
     - internal/publish-step:
         owner: rdcojocaru
-        private: true    
+        private: true  
