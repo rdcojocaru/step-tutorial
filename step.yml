@@ -6,6 +6,6 @@ tags:
   - trigger
   - test
 properties:
-  message:
-    type: string
-    required: true
+  - name: message
+      type: string
+      required: true
