@@ -2,8 +2,9 @@ box: alpine
 
 build:
   steps:
-    - name: prepare output
-      code: rm -rf $WERCKER_ROOT/.git
+    - script:
+        name: prepare output
+        code: rm -rf $WERCKER_ROOT/.git
 
 publish:
   steps:
