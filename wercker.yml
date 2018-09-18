@@ -1,12 +1,9 @@
-box: python
+box: alpine
 build:
   steps:
-    - script:
-      name: step one
-      code: echo "Step One"
-    - script:
-      name: step two
-      code: echo "python version $(python --version)"
-    - trigger-test:
-      message: "TESTING CUSTOM STEP !!!"
+
+publish:
+  steps:
+    - internal/publish-step:
+    owner: wercker
     
