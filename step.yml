@@ -6,7 +6,6 @@ tags:
   - trigger
   - test
 properties:
-- message:
-  name: message
+- name: message
   type: string
   required: true
