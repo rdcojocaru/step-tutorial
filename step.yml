@@ -7,5 +7,6 @@ tags:
   - test
 properties:
 - message:
+  name: message
   type: string
   required: true
