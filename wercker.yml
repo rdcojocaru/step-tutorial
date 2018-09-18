@@ -6,7 +6,5 @@ build:
       code: echo "Step One"
     - script:
       name: step two
-      code: | 
-      echo "Step Two"
-      echo "python version $(python --version)"
+      code: echo "python version $(python --version)"
     
