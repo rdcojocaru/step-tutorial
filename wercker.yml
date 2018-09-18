@@ -2,11 +2,11 @@ box: alpine
 
 build:
   steps:
-    - trigger-test:
-      message: "TEST MESSAGE"
+    - name: prepare output
+      code: rm -rf $WERCKER_ROOT/.git
 
 publish:
   steps:
     - internal/publish-step:
-        owner: wercker
-    
+        owner: rdcojocaru
+        private: true    
