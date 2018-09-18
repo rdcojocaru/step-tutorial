@@ -2,10 +2,10 @@ name: trigger-test
 version: 1.0
 description: Trigger a test
 tags:
-    - build
-    - trigger
-    - test
+  - build
+  - trigger
+  - test
 properties:
-    message:
-        type: string
-        required: true
+  message:
+    type: string
+    required: true
