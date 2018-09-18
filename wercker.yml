@@ -4,6 +4,7 @@ build:
   steps:
     - shellcheck:
         files: run.sh
+        shell: sh
     - script:
         name: prepare output
         code: rm -rf $WERCKER_ROOT/.git
