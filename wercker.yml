@@ -10,20 +10,3 @@ build:
       echo "Step Two"
       echo "python version $(python --version)"
     
-# deploy:
-#   steps:
-#     - script:
-#       name: step one
-#       code: echo "Step One"
-#     - script:
-#       name: step two
-#       code: echo "Step Two"
-#     - script:
-#       name: step three
-#       code: echo "Step Three"
-#     - script:
-#       name: step four
-#       code: echo "Step Four"
-#     - script:
-#       name: step five
-#       code: echo "Step Five"
